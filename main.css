@@ -1,0 +1,61 @@
+
+html {
+    font-family: Courier New, Courier, monospace;
+}
+h1 {
+    background-color: #b30059;
+    color: silver;
+    text-align: center;
+    padding: 32px;
+}
+label {
+    margin-right: 8px;
+}
+output {
+    margin-left: 8px;
+    font-weight: bold;
+}
+select {
+    font-size: 24px;
+}
+.widgetcontainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid #b30059;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.formcontainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: lightgray;
+    padding: 4%;
+    align-items: center;
+    justify-content: center;
+}
+.symbolcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    margin-right: 10%;
+}
+.heightcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
+    margin-left: 10%;
+}
+.pyramidcontainer {
+    height: fit-content;
+    width: fit-content;
+    min-height: 128px;
+    min-width: 30%;
+    margin: 5% auto;
+    font-size: 32px;
+    font-weight: 500;
+    color: #b30059;
+    text-align: end;
+}

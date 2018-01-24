@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html style="margin-left:15%; margin-right:15%;">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pyramid-Slide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Pyramid-Slide</h1>
+    <div class="widgetcontainer">
+        <div class="formcontainer">
+            <div class="symbolcontainer">
+                <label>Brick Symbol:</label> 
+                <select name="Brick Symbol" id="bricksymbol" onchange="symbolChanged(this.value)">
+                    <option value="#" selected>#</option>
+                    <option value="@">@</option>
+                    <option value="X">X</option>
+                    <option value="$">$</option>
+                </select>
+            </div>
+            <div class="heightcontainer">
+                <label>How High?</label> 
+                <input type="range" id="heightinput" name="heightinput" min="1" max="20" value="5" oninput="sliderFunction(this.value)">
+                <output id="heightoutput">5</output>
+            </div>
+        </div>
+        <div class="pyramidcontainer" id="pyramid"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
