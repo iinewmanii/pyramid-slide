@@ -1,12 +1,14 @@
 
 html {
+    margin-left: 15%;
+    margin-right: 15%;
     font-family: Courier New, Courier, monospace;
 }
 h1 {
     background-color: #b30059;
     color: silver;
     text-align: center;
-    padding: 32px;
+    padding: 4%;
 }
 label {
     margin-right: 8px;
@@ -21,7 +23,7 @@ select {
 .widgetcontainer {
     margin-left: 10%;
     margin-right: 10%;
-    border: 2px solid #b30059;
+    border: 3px solid #b30059;
     border-radius: 3px;
     overflow: hidden;
 }
@@ -51,7 +53,7 @@ select {
 .pyramidcontainer {
     height: fit-content;
     width: fit-content;
-    min-height: 128px;
+    min-height: 96px;
     min-width: 30%;
     margin: 5% auto;
     font-size: 32px;
